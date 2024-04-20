@@ -1,0 +1,5 @@
+dashboard:
+https://public.tableau.com/app/profile/fadhilah.fadhilah/viz/FinalProject_17120558202050/Dashboard1?publish=yes
+
+huggingface:
+https://huggingface.co/spaces/dewaalmatin/RevCheck

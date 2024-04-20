@@ -1,0 +1,24 @@
+-- Create the table sales_raw
+CREATE TABLE sales_raw (
+    Date VARCHAR(100),
+    Day INT,
+    Month VARCHAR(100),
+    Year INT,
+    Customer_Age INT,
+    Age_Group VARCHAR(100),
+    Customer_Gender VARCHAR(100),
+    Country VARCHAR(100),
+    State VARCHAR(100),
+    Product_Category VARCHAR(100),
+    Sub_Category VARCHAR(100),
+    Product VARCHAR(100),
+    Order_Quantity INT,
+    Unit_Cost INT,
+    Unit_Price INT,
+    Profit INT,
+    Cost INT,
+    Revenue INT
+);
+
+-- Load data from CSV into the table
+COPY sales_raw FROM '/Users/dewaalmatin/Documents/Hacktiv8/final-project/sales_raw.csv' DELIMITER ',' CSV HEADER;
